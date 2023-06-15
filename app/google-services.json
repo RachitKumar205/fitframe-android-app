@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "840650461783",
+    "firebase_url": "https://fitframe-6da33-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fitframe-6da33",
+    "storage_bucket": "fitframe-6da33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840650461783:android:01fd27935c11ac31840912",
+        "android_client_info": {
+          "package_name": "com.example.fitframe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840650461783-ij5pd05vbshlgamutld2ecvkdkh9rehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1-xRv_3wQsaEujedNwmHiseGx9pSMPho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840650461783-ij5pd05vbshlgamutld2ecvkdkh9rehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840650461783:android:9c2ff2fb78d1367d840912",
+        "android_client_info": {
+          "package_name": "com.google.mlkit.vision.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840650461783-ij5pd05vbshlgamutld2ecvkdkh9rehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1-xRv_3wQsaEujedNwmHiseGx9pSMPho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840650461783-ij5pd05vbshlgamutld2ecvkdkh9rehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840650461783:android:f6e293afe339e191840912",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.poseestimation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840650461783-ij5pd05vbshlgamutld2ecvkdkh9rehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1-xRv_3wQsaEujedNwmHiseGx9pSMPho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840650461783-ij5pd05vbshlgamutld2ecvkdkh9rehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

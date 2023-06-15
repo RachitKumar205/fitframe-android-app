@@ -1,0 +1,676 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/f395d49a8820bbe92d9dd829348348af/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a8ed896a02865ac37b9f9cc61f4bc1b4/jetified-barcode-scanning-16.0.3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:face-detection:16.0.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/72af51ca1f447e293a533c3c4e5e4462/jetified-face-detection-16.0.2/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/87a2dfa79e71a4b09911e6d5899630c5/jetified-pose-detection-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/fe125358769829d8e9fd3549e94c5bb6/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7767d1f95b09f475263fac45f5754071/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5f01f063811d10098124981cef6a9341/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7fc13f6122f8dba0a809fcc9f8e17e59/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9a356a6ac98c5eabcf1b4f5b25f83c17/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c4dea9dcaca2363890c3b6ce6a913f60/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aa8ded994c4a176b774383a2a3920624/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d6a248d6f02c1f2860b71a5382fd16e5/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e9cca56944857b7eb019f8eba541f890/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7d839ad9f657b19c27a31d383a384df3/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c99c49eefdb84717bb5da8ec385ce21b/jetified-play-services-vision-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/52d0f179cde89cbf2c3a4f16f70bdb3b/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/1e5d74a954f7647a0cb53a53c0be1f88/jetified-object-detection-common-16.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/fd5c554f15632a91eebf3faef045c3d3/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/efbb42ae60d55da508f3590e30319db5/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6bd4dca82772b8a6a996dfc70e4798f6/jetified-mediapipe-internal-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8df203f413bcae7fc5f59e82c8ec3ea2/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c929a7ddd1f8a39f8a063dcbe349b67d/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0920b92be586ffa321f3bb31c9dc1ab7/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0954a2c2e700e7ef1e32a25eb322c328/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/f7cc9bbf9e1f5b98475d2945e453e705/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/80117b4c77d5606bd129657833a757b2/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c15f5aa91289011a303dab0183ff3928/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dffc617866939baad877b56717aa5aee/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aeb074fdbf8d13272c8c9847563a40c4/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d34bf1582ab58d04ef5cbb4fb7e10e57/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b01365f7577325c5e6fdd43f77c1312b/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/31277cf211ac98d15f8e673584e7f199/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7c1826023dc44e9d33610b684d912d11/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9d68669df06b65494a3ac8e0d5c844a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8c9422547044793b505e79085083aaf4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/889d50df2963cbd149db1ba2c21e4234/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/2783582cb62fde81c872e7a5ae11c3b7/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b6ce49f5b08fe2e8d24191244dd91ce5/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/41540d318a0cbff8386d0800f977241c/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bda614f55325545e2c7700f2fe52c170/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e50394e0df5ff0bcc0809cae9e68977f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6fdab0d215172239a265e3b77b0ffc0a/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d9c4438cd57da10aad7380a8aefcb288/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ca0c9b6363508b63d51c7e5896a5dc30/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/4bcadb1bcf8a91bc81aa09c4e46f26da/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a95d776d56c5dcf19e4f5ba91eeee47e/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/13185404bd25992cb76ef7190820fada/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8d6cded7ffe636bf21a7d1d736bda700/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6120a64e192de37e308475e2a41ecf73/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/36c9ad1689ca0e14f96c11776ffa2d6c/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a2a6b6dc9c9d5909c5a11e0b695978c9/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6304427afd3d24ce174bf6d38beff4f0/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5380fc3291d8192b829877dd87ba8e11/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/af4aafc6fcafafd14aac38222e24eca4/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c5f9e1275c161c351084e7173aa74d58/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e961c81a7ef5ef4e57050a50b5af22b9/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e88a3441bf9cf1e4f4b8192f021286d1/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e8b9085b7c03b1c08dd14995b524bd99/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dfbc425d0ea61fd069f19ecac54eac03/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/89f07ea1d0de0ee91fcbae8497fbbd77/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/cf377d8f9feb93de9ba513b0178a87ee/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7c510cdb00d7015ddbbaf05cff3e50ee/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aba21b97e9c5281ccf0a01858ad9f8d7/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a22936fa22eae468ecef235d5e97dfc7/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0e8a69b9115f82ad59ff9a61e3085722/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a5ac6e018c170359dca284730e1da333/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8e7225150c6cdc2f105e4383c730dd54/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:4:5-43
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:1-64:12
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:5:5-35
+uses-sdk
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/f395d49a8820bbe92d9dd829348348af/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/f395d49a8820bbe92d9dd829348348af/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a8ed896a02865ac37b9f9cc61f4bc1b4/jetified-barcode-scanning-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a8ed896a02865ac37b9f9cc61f4bc1b4/jetified-barcode-scanning-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/72af51ca1f447e293a533c3c4e5e4462/jetified-face-detection-16.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/72af51ca1f447e293a533c3c4e5e4462/jetified-face-detection-16.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/87a2dfa79e71a4b09911e6d5899630c5/jetified-pose-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/87a2dfa79e71a4b09911e6d5899630c5/jetified-pose-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/fe125358769829d8e9fd3549e94c5bb6/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/fe125358769829d8e9fd3549e94c5bb6/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7767d1f95b09f475263fac45f5754071/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7767d1f95b09f475263fac45f5754071/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5f01f063811d10098124981cef6a9341/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5f01f063811d10098124981cef6a9341/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7fc13f6122f8dba0a809fcc9f8e17e59/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7fc13f6122f8dba0a809fcc9f8e17e59/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9a356a6ac98c5eabcf1b4f5b25f83c17/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9a356a6ac98c5eabcf1b4f5b25f83c17/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c4dea9dcaca2363890c3b6ce6a913f60/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c4dea9dcaca2363890c3b6ce6a913f60/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aa8ded994c4a176b774383a2a3920624/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aa8ded994c4a176b774383a2a3920624/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d6a248d6f02c1f2860b71a5382fd16e5/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d6a248d6f02c1f2860b71a5382fd16e5/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e9cca56944857b7eb019f8eba541f890/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e9cca56944857b7eb019f8eba541f890/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7d839ad9f657b19c27a31d383a384df3/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7d839ad9f657b19c27a31d383a384df3/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c99c49eefdb84717bb5da8ec385ce21b/jetified-play-services-vision-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c99c49eefdb84717bb5da8ec385ce21b/jetified-play-services-vision-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/52d0f179cde89cbf2c3a4f16f70bdb3b/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/52d0f179cde89cbf2c3a4f16f70bdb3b/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/1e5d74a954f7647a0cb53a53c0be1f88/jetified-object-detection-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/1e5d74a954f7647a0cb53a53c0be1f88/jetified-object-detection-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/fd5c554f15632a91eebf3faef045c3d3/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/fd5c554f15632a91eebf3faef045c3d3/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/efbb42ae60d55da508f3590e30319db5/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/efbb42ae60d55da508f3590e30319db5/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6bd4dca82772b8a6a996dfc70e4798f6/jetified-mediapipe-internal-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6bd4dca82772b8a6a996dfc70e4798f6/jetified-mediapipe-internal-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8df203f413bcae7fc5f59e82c8ec3ea2/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8df203f413bcae7fc5f59e82c8ec3ea2/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c929a7ddd1f8a39f8a063dcbe349b67d/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c929a7ddd1f8a39f8a063dcbe349b67d/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0920b92be586ffa321f3bb31c9dc1ab7/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0920b92be586ffa321f3bb31c9dc1ab7/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0954a2c2e700e7ef1e32a25eb322c328/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0954a2c2e700e7ef1e32a25eb322c328/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/f7cc9bbf9e1f5b98475d2945e453e705/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/f7cc9bbf9e1f5b98475d2945e453e705/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/80117b4c77d5606bd129657833a757b2/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/80117b4c77d5606bd129657833a757b2/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c15f5aa91289011a303dab0183ff3928/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c15f5aa91289011a303dab0183ff3928/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dffc617866939baad877b56717aa5aee/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dffc617866939baad877b56717aa5aee/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aeb074fdbf8d13272c8c9847563a40c4/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aeb074fdbf8d13272c8c9847563a40c4/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d34bf1582ab58d04ef5cbb4fb7e10e57/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d34bf1582ab58d04ef5cbb4fb7e10e57/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b01365f7577325c5e6fdd43f77c1312b/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b01365f7577325c5e6fdd43f77c1312b/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/31277cf211ac98d15f8e673584e7f199/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/31277cf211ac98d15f8e673584e7f199/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7c1826023dc44e9d33610b684d912d11/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7c1826023dc44e9d33610b684d912d11/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9d68669df06b65494a3ac8e0d5c844a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9d68669df06b65494a3ac8e0d5c844a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8c9422547044793b505e79085083aaf4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8c9422547044793b505e79085083aaf4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/889d50df2963cbd149db1ba2c21e4234/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/889d50df2963cbd149db1ba2c21e4234/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/2783582cb62fde81c872e7a5ae11c3b7/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/2783582cb62fde81c872e7a5ae11c3b7/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b6ce49f5b08fe2e8d24191244dd91ce5/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b6ce49f5b08fe2e8d24191244dd91ce5/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/41540d318a0cbff8386d0800f977241c/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/41540d318a0cbff8386d0800f977241c/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bda614f55325545e2c7700f2fe52c170/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bda614f55325545e2c7700f2fe52c170/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e50394e0df5ff0bcc0809cae9e68977f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e50394e0df5ff0bcc0809cae9e68977f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6fdab0d215172239a265e3b77b0ffc0a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6fdab0d215172239a265e3b77b0ffc0a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d9c4438cd57da10aad7380a8aefcb288/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d9c4438cd57da10aad7380a8aefcb288/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ca0c9b6363508b63d51c7e5896a5dc30/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ca0c9b6363508b63d51c7e5896a5dc30/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/4bcadb1bcf8a91bc81aa09c4e46f26da/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/4bcadb1bcf8a91bc81aa09c4e46f26da/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a95d776d56c5dcf19e4f5ba91eeee47e/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a95d776d56c5dcf19e4f5ba91eeee47e/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/13185404bd25992cb76ef7190820fada/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/13185404bd25992cb76ef7190820fada/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8d6cded7ffe636bf21a7d1d736bda700/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8d6cded7ffe636bf21a7d1d736bda700/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6120a64e192de37e308475e2a41ecf73/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6120a64e192de37e308475e2a41ecf73/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/36c9ad1689ca0e14f96c11776ffa2d6c/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/36c9ad1689ca0e14f96c11776ffa2d6c/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a2a6b6dc9c9d5909c5a11e0b695978c9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a2a6b6dc9c9d5909c5a11e0b695978c9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6304427afd3d24ce174bf6d38beff4f0/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/6304427afd3d24ce174bf6d38beff4f0/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5380fc3291d8192b829877dd87ba8e11/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5380fc3291d8192b829877dd87ba8e11/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/af4aafc6fcafafd14aac38222e24eca4/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/af4aafc6fcafafd14aac38222e24eca4/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c5f9e1275c161c351084e7173aa74d58/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c5f9e1275c161c351084e7173aa74d58/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e961c81a7ef5ef4e57050a50b5af22b9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e961c81a7ef5ef4e57050a50b5af22b9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e88a3441bf9cf1e4f4b8192f021286d1/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e88a3441bf9cf1e4f4b8192f021286d1/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e8b9085b7c03b1c08dd14995b524bd99/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/e8b9085b7c03b1c08dd14995b524bd99/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dfbc425d0ea61fd069f19ecac54eac03/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dfbc425d0ea61fd069f19ecac54eac03/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/89f07ea1d0de0ee91fcbae8497fbbd77/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/89f07ea1d0de0ee91fcbae8497fbbd77/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/cf377d8f9feb93de9ba513b0178a87ee/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/cf377d8f9feb93de9ba513b0178a87ee/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7c510cdb00d7015ddbbaf05cff3e50ee/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7c510cdb00d7015ddbbaf05cff3e50ee/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aba21b97e9c5281ccf0a01858ad9f8d7/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aba21b97e9c5281ccf0a01858ad9f8d7/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a22936fa22eae468ecef235d5e97dfc7/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a22936fa22eae468ecef235d5e97dfc7/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0e8a69b9115f82ad59ff9a61e3085722/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0e8a69b9115f82ad59ff9a61e3085722/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a5ac6e018c170359dca284730e1da333/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:5:5-6:41
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a5ac6e018c170359dca284730e1da333/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:5:5-6:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8e7225150c6cdc2f105e4383c730dd54/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8e7225150c6cdc2f105e4383c730dd54/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+	tools:overrideLibrary
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:15-154
+	android:targetSdkVersion
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+		MERGED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+		INJECTED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:15:19-57
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:17:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:18:22-62
+application
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:20:5-62:19
+MERGED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/87a2dfa79e71a4b09911e6d5899630c5/jetified-pose-detection-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/87a2dfa79e71a4b09911e6d5899630c5/jetified-pose-detection-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/fe125358769829d8e9fd3549e94c5bb6/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/fe125358769829d8e9fd3549e94c5bb6/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7767d1f95b09f475263fac45f5754071/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7767d1f95b09f475263fac45f5754071/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5f01f063811d10098124981cef6a9341/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5f01f063811d10098124981cef6a9341/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:9:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d6a248d6f02c1f2860b71a5382fd16e5/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d6a248d6f02c1f2860b71a5382fd16e5/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7d839ad9f657b19c27a31d383a384df3/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7d839ad9f657b19c27a31d383a384df3/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c99c49eefdb84717bb5da8ec385ce21b/jetified-play-services-vision-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c99c49eefdb84717bb5da8ec385ce21b/jetified-play-services-vision-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/52d0f179cde89cbf2c3a4f16f70bdb3b/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/52d0f179cde89cbf2c3a4f16f70bdb3b/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8df203f413bcae7fc5f59e82c8ec3ea2/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/8df203f413bcae7fc5f59e82c8ec3ea2/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0920b92be586ffa321f3bb31c9dc1ab7/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0920b92be586ffa321f3bb31c9dc1ab7/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0954a2c2e700e7ef1e32a25eb322c328/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/0954a2c2e700e7ef1e32a25eb322c328/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/f7cc9bbf9e1f5b98475d2945e453e705/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/f7cc9bbf9e1f5b98475d2945e453e705/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c15f5aa91289011a303dab0183ff3928/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/c15f5aa91289011a303dab0183ff3928/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dffc617866939baad877b56717aa5aee/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dffc617866939baad877b56717aa5aee/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.5.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/af4aafc6fcafafd14aac38222e24eca4/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/af4aafc6fcafafd14aac38222e24eca4/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aba21b97e9c5281ccf0a01858ad9f8d7/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/aba21b97e9c5281ccf0a01858ad9f8d7/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a5ac6e018c170359dca284730e1da333/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:8:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/a5ac6e018c170359dca284730e1da333/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:8:5-20
+	android:requestLegacyExternalStorage
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:25:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/af4aafc6fcafafd14aac38222e24eca4/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:24:9-33
+	android:icon
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:23:9-44
+	android:allowBackup
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:22:9-36
+	android:theme
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:26:9-47
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:21:9-61
+activity#com.fitframe.mlkit.fitcore.app.LoginActivity
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:28:13-72
+activity#com.fitframe.mlkit.fitcore.app.RegisterActivity
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:31:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:36:27-74
+meta-data#com.google.android.gms.version
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:40:9-42:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dffc617866939baad877b56717aa5aee/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/dffc617866939baad877b56717aa5aee/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:42:13-66
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:41:13-58
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:47:9-49:52
+	android:value
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:48:13-64
+activity#com.fitframe.mlkit.fitcore.app.EntryChoiceActivity
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:51:9-54:56
+	android:exported
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:53:13-36
+	android:theme
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:52:13-78
+activity#com.fitframe.mlkit.fitcore.app.java.LivePreviewActivity
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:55:9-58:47
+	android:exported
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:57:13-36
+	android:theme
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:56:13-83
+activity#com.fitframe.mlkit.fitcore.app.preference.SettingsActivity
+ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from /Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:60:13-86
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:9:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:12:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:12:17-133
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.automl.internal.AutoMLLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:12:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:12:17-129
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+activity#com.gun0912.tedpermission.TedPermissionActivity
+ADDED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:10:9-14:67
+	android:screenOrientation
+		ADDED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:13:13-52
+	android:configChanges
+		ADDED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:12:13-144
+	android:theme
+		ADDED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:14:13-64
+	android:name
+		ADDED from [gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:11:13-75
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:12:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar
+ADDED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:12:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:21:17-120
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

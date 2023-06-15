@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">840650461783-ij5pd05vbshlgamutld2ecvkdkh9rehp.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fitframe-6da33-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">840650461783</string>
+    <string name="google_api_key" translatable="false">AIzaSyD1-xRv_3wQsaEujedNwmHiseGx9pSMPho</string>
+    <string name="google_app_id" translatable="false">1:840650461783:android:9c2ff2fb78d1367d840912</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD1-xRv_3wQsaEujedNwmHiseGx9pSMPho</string>
+    <string name="google_storage_bucket" translatable="false">fitframe-6da33.appspot.com</string>
+    <string name="project_id" translatable="false">fitframe-6da33</string>
+</resources>

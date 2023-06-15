@@ -1,0 +1,340 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.mlkit.vision.demo"
+4    android:installLocation="auto"
+5    android:versionCode="11"
+6    android:versionName="1.11" >
+7    <!--
+8 CameraX libraries require minSdkVersion 21, while this quickstart app
+9    supports low to 16. Needs to use overrideLibrary to make the merger tool
+10    ignore this conflict and import the libraries while keeping the app's lower
+11    minSdkVersion value. In code, will check SDK version, before calling CameraX
+12    APIs.
+13    -->
+14    <uses-sdk
+14-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+15        android:minSdkVersion="19"
+15-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+16        android:targetSdkVersion="29" />
+16-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:13:5-157
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:15:5-60
+18-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:15:19-57
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:17:5-67
+20-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:17:22-64
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:18:5-65
+21-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:18:22-62
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
+22-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:22-76
+23
+24    <application
+24-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:20:5-62:19
+25        android:name="androidx.multidex.MultiDexApplication"
+25-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:21:9-61
+26        android:allowBackup="false"
+26-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:22:9-36
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/af4aafc6fcafafd14aac38222e24eca4/core-1.5.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@drawable/logo_mlkit"
+29-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:23:9-44
+30        android:label="FitFrame"
+30-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:24:9-33
+31        android:requestLegacyExternalStorage="true"
+31-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:25:9-52
+32        android:theme="@style/Theme.AppCompat" >
+32-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:26:9-47
+33        <activity
+33-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:27:9-29:40
+34            android:name="com.fitframe.mlkit.fitcore.app.LoginActivity"
+34-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:28:13-72
+35            android:exported="false" />
+35-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:29:13-37
+36        <activity
+36-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:30:9-38:20
+37            android:name="com.fitframe.mlkit.fitcore.app.RegisterActivity"
+37-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:31:13-75
+38            android:exported="true" >
+38-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:32:13-36
+39            <intent-filter>
+39-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:33:13-37:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:34:17-69
+40-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:34:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:36:17-77
+42-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:36:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:40:9-42:69
+47            android:name="com.google.android.gms.version"
+47-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:41:13-58
+48            android:value="@integer/google_play_services_version" />
+48-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:42:13-66
+49        <!--
+50 Optional: Add it to automatically download ML model to device after
+51          your app is installed.
+52        -->
+53        <meta-data
+53-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:47:9-49:52
+54            android:name="com.google.mlkit.vision.DEPENDENCIES"
+54-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:48:13-64
+55            android:value="barcode,face,ocr,ica" />
+55-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:49:13-49
+56
+57        <activity
+57-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:51:9-54:56
+58            android:name="com.fitframe.mlkit.fitcore.app.EntryChoiceActivity"
+58-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:52:13-78
+59            android:exported="true"
+59-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:53:13-36
+60            android:theme="@style/AppTheme" />
+60-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:54:13-44
+61        <activity
+61-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:55:9-58:47
+62            android:name="com.fitframe.mlkit.fitcore.app.java.LivePreviewActivity"
+62-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:56:13-83
+63            android:exported="true"
+63-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:57:13-36
+64            android:theme="@style/AppTheme" />
+64-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:58:13-44
+65        <activity
+65-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:59:9-61:40
+66            android:name="com.fitframe.mlkit.fitcore.app.preference.SettingsActivity"
+66-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:60:13-86
+67            android:exported="false" />
+67-->/Volumes/macOSExtension/Downloads/pose_estimation_android_app/android/app/src/main/AndroidManifest.xml:61:13-37
+68
+69        <service
+69-->[com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:8:9-14:19
+70            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+70-->[com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:9:13-91
+71            android:directBootAware="true"
+71-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:17:13-43
+72            android:exported="false" >
+72-->[com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:10:13-37
+73            <meta-data
+73-->[com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+74-->[com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:12:17-136
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.mlkit:object-detection:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/68c9a397a533b91ad07999979878cdfa/jetified-object-detection-16.2.1/AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:11:13-13:85
+77                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar"
+77-->[com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:12:17-133
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.mlkit:object-detection-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec6a8edce5b18b53b1e8280dc4c6cc75/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:13:17-82
+79            <meta-data
+79-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:12:13-14:85
+80                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+80-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:13:17-114
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/5178a3da13cd5df1485601dce38f23d2/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:14:17-82
+82            <meta-data
+82-->[com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:11:13-13:85
+83                android:name="com.google.firebase.components:com.google.mlkit.vision.label.automl.internal.AutoMLLabelRegistrar"
+83-->[com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:12:17-129
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.mlkit:image-labeling-automl:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ec654718fd0a3265063c682dc9e21290/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:13:17-82
+85            <meta-data
+85-->[com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:11:13-13:85
+86                android:name="com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar"
+86-->[com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:12:17-132
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.mlkit:image-labeling:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/b8df4f65c738cec98a580078e51bd8f0/jetified-image-labeling-17.0.0/AndroidManifest.xml:13:17-82
+88            <meta-data
+88-->[com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:11:13-13:85
+89                android:name="com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar"
+89-->[com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:12:17-129
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.mlkit:image-labeling-custom:16.2.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/3718f9a8cc11eb1946404566a1228c82/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:13:17-82
+91            <meta-data
+91-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+92-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:13:17-120
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/9f63fbd2c65c4f9af2d6c78e0b9e77fd/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:14:17-82
+94            <meta-data
+94-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:12:13-14:85
+95                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+95-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:13:17-114
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/d96b672c62e0806466b2e1f5e0f643ee/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:14:17-82
+97            <meta-data
+97-->[com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:11:13-13:85
+98                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+98-->[com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:12:17-103
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.mlkit:vision-internal-vkp:17.0.1] /Users/rachit/.gradle/caches/transforms-2/files-2.1/ac3ca02d0390878a0dcaf51fd7f01d21/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:13:17-82
+100            <meta-data
+100-->[com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:11:13-13:85
+101                android:name="com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar"
+101-->[com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:12:17-114
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.mlkit:pose-detection-common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/07de3bec3d89a41e2645d2b63f5bfb95/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:13:17-82
+103            <meta-data
+103-->[com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:12:13-14:85
+104                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+104-->[com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:13:17-124
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.mlkit:vision-common:16.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/62e8e1991e261ebc345b7175fde44cfd/jetified-vision-common-16.1.0/AndroidManifest.xml:14:17-82
+106            <meta-data
+106-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:20:13-22:85
+107                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+107-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:21:17-120
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:22:17-82
+109        </service>
+110
+111        <activity
+111-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+112            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+112-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+113            android:excludeFromRecents="true"
+113-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+114            android:exported="true"
+114-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+115            android:launchMode="singleTask"
+115-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+116-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+117            <intent-filter>
+117-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+118                <action android:name="android.intent.action.VIEW" />
+118-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+118-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+119
+120                <category android:name="android.intent.category.DEFAULT" />
+120-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+120-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+121                <category android:name="android.intent.category.BROWSABLE" />
+121-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+121-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+122
+123                <data
+123-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+124                    android:host="firebase.auth"
+124-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+125                    android:path="/"
+125-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+126                    android:scheme="genericidp" />
+126-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+127            </intent-filter>
+128        </activity>
+129        <activity
+129-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+130            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+130-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+131            android:excludeFromRecents="true"
+131-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+132            android:exported="true"
+132-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+133            android:launchMode="singleTask"
+133-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+134-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+135            <intent-filter>
+135-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+136                <action android:name="android.intent.action.VIEW" />
+136-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+136-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+137
+138                <category android:name="android.intent.category.DEFAULT" />
+138-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+138-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+139                <category android:name="android.intent.category.BROWSABLE" />
+139-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+139-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+140
+141                <data
+141-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+142                    android:host="firebase.auth"
+142-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+143                    android:path="/"
+143-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+144                    android:scheme="recaptcha" />
+144-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+145            </intent-filter>
+146        </activity>
+147
+148        <service
+148-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+149            android:name="com.google.firebase.components.ComponentDiscoveryService"
+149-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+151            android:exported="false" >
+151-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+152            <meta-data
+152-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+153                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+153-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-auth:21.0.3] /Users/rachit/.gradle/caches/transforms-2/files-2.1/64a457d2b50ab3cb1e3c9635f64e124d/jetified-firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+155        </service>
+156
+157        <activity
+157-->[gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:10:9-14:67
+158            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+158-->[gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:11:13-75
+159            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+159-->[gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:12:13-144
+160            android:screenOrientation="unspecified"
+160-->[gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:13:13-52
+161            android:theme="@style/Theme.Transparent.Permission" />
+161-->[gun0912.ted:tedpermission:2.2.2] /Users/rachit/.gradle/caches/transforms-2/files-2.1/30ba55d718dd3aa5b97d7e63a4422ce6/jetified-tedpermission-2.2.2/AndroidManifest.xml:14:13-64
+162
+163        <provider
+163-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:9:9-13:38
+164            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+164-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:10:13-78
+165            android:authorities="com.google.mlkit.vision.demo.mlkitinitprovider"
+165-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:11:13-69
+166            android:exported="false"
+166-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:12:13-37
+167            android:initOrder="99" />
+167-->[com.google.mlkit:common:17.0.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/73eff128e772d28e8aa1d1e6d32a21e1/jetified-common-17.0.0/AndroidManifest.xml:13:13-35
+168        <provider
+168-->[com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+169            android:name="com.google.firebase.provider.FirebaseInitProvider"
+169-->[com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+170            android:authorities="com.google.mlkit.vision.demo.firebaseinitprovider"
+170-->[com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+171            android:directBootAware="true"
+171-->[com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+172            android:exported="false"
+172-->[com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+173            android:initOrder="100" />
+173-->[com.google.firebase:firebase-common:20.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/bcd989e9ba93ef6b9b4196415a14c6ab/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:17.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/33bc1e0cec82723aae844e90b939e04a/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+179
+180        <provider
+180-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+181            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+181-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+182            android:authorities="com.google.mlkit.vision.demo.lifecycle-process"
+182-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+183            android:exported="false"
+183-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+184            android:multiprocess="true" />
+184-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/rachit/.gradle/caches/transforms-2/files-2.1/7ea6a2e7f489b30861e745f78c7bc5f9/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+185    </application>
+186
+187</manifest>
